@@ -1,5 +1,3 @@
-package no.hvl.dat250.jpa.basicexample;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
