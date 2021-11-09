@@ -11,8 +11,8 @@ public class Person {
     @Id
     public String name;
 
-    @ManyToOne
-    private Address address;
+    @ManyToMany
+    private ArrayList<Address> addresses;
 
     @OneToMany
     private ArrayList<Creditcard> cards;

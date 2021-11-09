@@ -17,4 +17,10 @@ public class Address {
     @OneToMany
     private ArrayList<Person> occupant;
 
+    public Address() {}
+
+    public Address(String street, int number) {
+        this.street = street;
+        this.number = number;
+    }
 }
